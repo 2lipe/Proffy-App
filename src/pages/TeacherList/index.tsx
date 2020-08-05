@@ -27,7 +27,7 @@ function TeacherList() {
             ]}
           />
           <Select 
-            name="week-day" 
+            name="week_day" 
             label="Dia da Semana"
             options={[
               { value: '0', label: 'Domingo' },
