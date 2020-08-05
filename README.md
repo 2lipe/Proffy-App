@@ -26,8 +26,6 @@ TypeScript, ReactJS, Node, Express, SQLite, knex, NPM, GIT.
 
 ## Funcionalidades da API
 
-URL: [http://localhost:3030]
-
 - Envia um `POST` para a rota `http://localhost:3030/classes` cadastrando os professores
 - Requisita um `GET` para a rota `https://localhost:3030/classes` retornando os professores/aulas
 
@@ -36,3 +34,15 @@ URL: [http://localhost:3030]
 
 
 ## Rodando a aplicação
+
+- Clone este respositório com o comando: $git clone git@github.com:2lipe/Proffy-App.git
+- Tenha o NPM ou Yarn instalados.
+
+- Instale as dependências do projeto na pasta `web` com o comando `npm install` ou `yarn install` 
+faça o mesmo para a pasta `server`.
+
+- Abra a pasta `server` e rode no terminal `npm start` ou `yarn start`.
+  - O servidor irá rodar na porta `3030`.
+
+- Abra a pasta principal do projeto `web` em outro terminal e rode `npm start` ou `yarn start`
+  - A aplicação ira abrir na porta `3000`.
