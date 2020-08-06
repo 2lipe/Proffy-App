@@ -30,6 +30,21 @@ const styles = StyleSheet.create({
     maxWidth: 240,
   },
 
+  okButton: {
+    marginVertical: 40,
+    backgroundColor: '#04d361',
+    height: 58,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 8,
+  },
+
+  okButtonText: {
+    fontFamily: 'Archivo_700Bold',
+    color: '#FFF',
+    fontSize: 16,
+  },
+
 });
 
 export default styles;
