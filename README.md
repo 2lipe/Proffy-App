@@ -44,5 +44,5 @@ faça o mesmo para a pasta `server`.
 - Abra a pasta `server` e rode no terminal `npm start` ou `yarn start`.
   - O servidor irá rodar na porta `3030`.
 
-- Abra a pasta principal do projeto `web` em outro terminal e rode `npm start` ou `yarn start`
+- Abra a pasta `frontend` em outro terminal e rode `npm start` ou `yarn start`
   - A aplicação ira abrir na porta `3000`.
