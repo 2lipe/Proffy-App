@@ -8,7 +8,7 @@ Projeto web desktop/mobile desenvolvido na semana NLW bootcamp da RocketSeat.
 A aplicação consiste em facilitar a busca e o encontro entre professores e alunos, onde cada professor
 pode realizar o seu cadastro e o cadastro da sua respectiva aula, informando a matéria lecionada,
 biografia, avatar, horário e dias de disponibilidade, custo por hora aula e telefone para contato.
-E o aluno pode fazer buscar pela matéria e horário assim encontrando o professor que melhor 
+E o aluno pode faze a buscar pela matéria e horário assim encontrando o professor que melhor 
 atende a sua busca.
 
 ## Desenvolvimento
