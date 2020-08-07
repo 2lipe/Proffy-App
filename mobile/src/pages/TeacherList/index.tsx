@@ -3,6 +3,7 @@ import { View, ScrollView, Text } from 'react-native';
 import { TextInput, BorderlessButton, RectButton } from 'react-native-gesture-handler';
 import { Feather } from '@expo/vector-icons';
 import AsyncStorage from '@react-native-community/async-storage';
+import { useFocusEffect } from '@react-navigation/native';
 
 import api from '../../services/api';
 
@@ -10,6 +11,7 @@ import PageHeader from '../../components/PageHeader';
 import TeacherItem, { Teacher } from '../../components/TeacherItem';
 
 import styles from './styles';
+
 
 function TeacherList() {
   const [isFiltersVisible, setIsFilterVisible] = useState(false);
@@ -50,6 +52,10 @@ function TeacherList() {
 
     setTeachers(res.data);
   }
+
+  useFocusEffect(() => {
+    loadfavorites();
+  });
 
   return (
     <View style={styles.container} >
